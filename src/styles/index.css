@@ -10,3 +10,57 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+.body1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+.body2 {
+    display: flex;
+    justify-content: center;
+}
+.bodybath {
+    display: flex;
+    justify-content: center;
+}    
+
+
+.bath{
+    width: 10px;
+    height: 80px;
+    background-color: black;
+}
+.box{
+    display: inline-block;
+    width: 80px;
+   
+    background-color: black;
+    padding:15px;
+    padding-top: 30px;
+    border-radius: 5%;
+
+}
+.ligth{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 0, 123);
+    border-radius: 50%;
+
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.glow {
+    box-shadow: 0px 0px 9px 4px rgb(146, 146, 220);
+}
